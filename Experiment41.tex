@@ -5,7 +5,13 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{titlepic}
+\usepackage{hyperref}
+\usepackage{subfiles}
+\usepackage{siunitx}
+\usepackage{makecell}
+\usepackage[a4paper, margin=2cm]{geometry}
 \usepackage{helvet}
+\usepackage{tabularx}
 \title{Cosmic muon magnetic moment and lifetime}
 \author{Matei A.V. Climescu}
 \date{Mainz,2020}
@@ -21,17 +27,22 @@
 }%
 \item[]}{\end{list}}
 
-\maketitle
+
 
 
 \begin{document}
-
+\maketitle
 
 \begin{titlepage}
 \begin{changemargin}{-0cm}{-0cm}
-\includegraphics[width=\linewidth]{../fig/cover.png}
+\includegraphics[width=\linewidth]{./fig/cover.png}
 \end{changemargin}
 \end{titlepage}
+
+
+
+    \include{sections/introduction}
+    \include{sections/chap2}
 
 
 
