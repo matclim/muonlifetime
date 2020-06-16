@@ -6,12 +6,25 @@
 \usepackage[utf8]{inputenc}
 \usepackage{titlepic}
 \usepackage{hyperref}
+\usepackage{gensymb}
 \usepackage{subfiles}
 \usepackage{siunitx}
 \usepackage{makecell}
 \usepackage[a4paper, margin=2cm]{geometry}
-\usepackage{helvet}
+\usepackage{fourier}
 \usepackage{tabularx}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{amsmath}
+\usepackage{commath}
+\usepackage{amssymb}
+\usepackage{makecell}
+
+\renewcommand\theadalign{bc}
+\renewcommand\theadfont{\bfseries}
+\renewcommand\theadgape{\Gape[4pt]}
+\renewcommand\cellgape{\Gape[4pt]}
+
 \title{Cosmic muon magnetic moment and lifetime}
 \author{Matei A.V. Climescu}
 \date{Mainz,2020}
@@ -43,9 +56,10 @@
 
     \include{sections/introduction}
     \include{sections/chap2}
+    \include{sections/chap3}
 
 
-
-
+\bibliography{bib/Experiment41}
+\bibliographystyle{abbrv}
 \end{document}
 
