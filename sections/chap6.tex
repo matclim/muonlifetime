@@ -1,0 +1,31 @@
+\chapter{Measurement and analysis}
+
+\section{Preparatory measurements}
+
+Before the actual measurement can be understaken, a couple of preparations must be made such as setting the PMT voltages, the discriminator thresholds and finally testing the electronics with simulated pulses.
+
+\subsection{Setting the counter}
+
+The discriminator's rectangular pulse widths are set to \SI{50}{\nano\second}, this provides long enough pulses for the coincidences while also minimizing the amount of random coincidences which arise from the overlap of two successive pulses due to their finite width. The Number $N_{\text{z}}$ of random coincidences is a function of the pulse width $T_{\text{i}}$ and the number of impulses according to:
+
+\begin{equation}
+N_{\text{z}}=N_1 N_2(T_1+T_2),
+\end{equation}
+
+where the counting rate of the PMTs are to be determined. This is done by determining the expected muon rate. A well known figure for astroparticle experimentalists is that of \SI{1}{muon\per\minute\per\centi\meter\squared}, this means that for the scintiallator area of \SI{4000}{\centi\meter\squared}, the PMT and discriminators should be set such as to register approximately \SI{4000}{counts\per\minute}. This is fufilled approximately when the total counting rate is about \SI{6000}{\per\minute}. The counting is done with a dedicated counter ("Scaler") which counts logical pulses for a user-selected period.
+
+The number of random coincidences is thus expected to be:
+
+\begin{equation}
+N_{\text{z}}=\frac{6000^2}{60^2 \: \si{\second\squared}}\SI{100e-9}{\second}\sim 1.0 \cdot \SI{e-3}{\per\second},
+\end{equation}
+
+which corresponds to $\sim \SI{0.06}{events\per\minute}$ which is negligible when compared to the expected rate of $\SI{4000}{events\per\minute}$.
+
+An expectation value for the effective count rate can then be computed: around 4000 muons are expected to cross the scintillator every minute, the efficiency of the setup is $\sim 50\%$, muons with energies between $601$ and $\SI{617}{\mega\electronvolt}$ are stopped by the copper target. The energy spectrum shown in Figure \ref{fig:shift} implies that about 4-5 events should be recorded every minute. This expectation is observed to be in good agreement with observations.
+
+\section{Electronic test with simulated pulse}
+
+A muon decay can be tested with the help of a pulse generator. The generator emits two short pulses with pre-set time intervals (which can be set from \SI{10}{\nano\second} to \SI{1}{\second}). The pulses must be passed through discriminators 1 and 2, such as their time difference trigger the counter. If the distance is, per example \SI{5}{\micro\second}, the counter should display 100 (channels), one channel corresponding to \SI{0.05}{\micro\second}. If the double pulses are repeated frequently, the deviation shouldn't exceed $\pm\SI{1}{\text{channel}}$. If there is a constant difference in the time interval (``offset''), this can be corrected later.
+
+
