@@ -51,7 +51,7 @@ The coil used in this experiment is \SI{1}{\meter} and composed of 456 loops. Th
 \end{figure}
 
 
-The magnetic field must however be homogenous enough that two muons stopped at different locations don't have too big of a phase difference. If the relative phase difference should be $\Delta\omega T \leq 0.3$, with $T$ being the measurement period (i.e. \SI{12.5}{\micro\second}). In this case, equation \ref{eq:larm} implies that the homogeneity of the B-field at \SI{48}{\gauss} must satisfy $\frac{\Delta B}{B}\leq 0.008$. If one uses the lw of Biot-Savart law to compute the magnetic field, they would find $\frac{\Delta B}{B}=0.013$. An additional \SI{10}{\centi\meter} long correction coil at each end of the main coil improves the value to 0.008. Calculations with different current values show that this value represents an absolute minimum for this arrangement and is achieved precisely when the correction coil current is half of that of the main coil. The secondary coils are thus connected in parralel to each other and in series with the main one as shown in Figure \ref{fig:coil}.
+The magnetic field must however be homogenous enough that two muons stopped at different locations don't have too big of a phase difference. If the relative phase difference should be $\Delta\omega T \leq 0.3$, with $T$ being the measurement period (i.e. \SI{12.5}{\micro\second}). In this case, equation \ref{eq:larm} implies that the homogeneity of the B-field at \SI{48}{\gauss} must satisfy $\frac{\Delta B}{B}\leq 0.008$. If one uses the law of Biot-Savart to compute the magnetic field, they would find $\frac{\Delta B}{B}=0.013$. An additional \SI{10}{\centi\meter} long correction coil at each end of the main coil improves the value to 0.008. Calculations with different current values show that this value represents an absolute minimum for this arrangement and is achieved precisely when the correction coil current is half of that of the main coil. The secondary coils are thus connected in parralel to each other and in series with the main one as shown in Figure \ref{fig:coil}.
 
 \begin{figure}
 \centering
@@ -110,7 +110,7 @@ The light produced in the scintillators is guided in a plexiglas waveguide to a 
   \caption{}
 \label{sfig:PVD}
   \end{subfigure}
-\caption{(a) PMT schematic illustration. (b) PMT example voltage divider circuit.}
+\caption{(a) PMT schematic illustration. (b) PMT example voltage divider circuit \cite{wiki}.}
 \label{fig:PMT}
 \end{figure}
 
@@ -125,7 +125,7 @@ The conditions for a muon stop or decay from Figure \ref{fig:principle} can be w
 \big(\text{PMT}1 \odot \text{PMT}2\big) \odot \big(\overline{\text{PMT}1} \oplus \overline{\text{PMT}2}\big).
 \end{equation}
 
-The first block represents a logical \textbf{AND} while the second one represents a logical \textbf{NOR} (see Table \ref{tab:log}). The entire logical circuit, including the \textbf{AND} is realized in the electronic circuit shown in Figure \ref{fig:elek} in coincidences 1,2 and 3. The logical units used to make coincidences require sharp rectangular gate (digital) pulses which is why the analog PMT signal is connected to discriminators after amplification. Similarly to the coincidences, the discriminator output length can be varied. Discriminators also include the possibility to separate interference pulses (noise) from signal: they will only deliver a gate signal if the signal input exceeds a certain threshold which can be set. The rest of the circuit after coincidence 3 is used to set a counter to measure the decay time, from the start of a muon-stop (Reset) and stop at the subsequent event (interrupt) if this occurs within the fixed \SI{12.5}{\micro\second}. The counter reset and the \SI{12.5}{\micro\second} wide time window are implemented via the monoflop. A monoflop has one input (\textbf{S}) for start (as the reset is only used when operating as a flip-flop) and three outputs:
+The first block represents a logical \textbf{AND} while the second one represents a logical \textbf{NOR} (see Table \ref{tab:log}). The entire logical circuit, including the \textbf{AND} is realized in the electronic circuit shown in Figure \ref{fig:elek} in coincidences 1,2 and 3. The logical units used to make coincidences require sharp rectangular gate (digital) pulses which is why the analog PMT signal is connected to discriminators after amplification. Similarly to the coincidences, the discriminator output length can be varied. Discriminators also include the possibility to separate interference pulses (noise) from signal: they will only deliver a gate signal if the signal input exceeds a certain threshold which can be set. The rest of the circuit after coincidence 3 is used to set a counter to measure the decay time, from the start of a muon-stop (Reset) and stop at the subsequent event (interrupt) if this occurs within the fixed \SI{12.5}{\micro\second}. The counter reset and the \SI{12.5}{\micro\second} wide time window are implemented via the monoflop. A monoflop has one input ($s$) for start (as the reset is only used when operating as a flip-flop) and three outputs:
 
 \begin{itemize}
 \item $o$ (out) produces a gate output of variable length caused by an input and a \SI{0}{\volt} output otherwise.

@@ -42,7 +42,7 @@ Muon decays are a statistical process obeying an exponential decay function give
 \text{N}_{\Pmuon}(t)=N_{-}e^{\frac{-t}{\tau_{-}}},
 \end{equation}
 
-with $N_{-}$ a constant. A logarithmic representation should result in a straigth line for the graph. In a \SI{12.5}{\micro\second} window, it falls rapidely due to the limited lifetime of the negative muons which decay at $99\%$ after \SI{750}{\nano\second} (see the stripped line in Figure \ref{figwigl}).
+with $N_{-}$ a constant. A logarithmic representation should result in a straigth line for the graph. In a \SI{12.5}{\micro\second} window, it falls rapidely due to the limited lifetime of the negative muons which decay at $99\%$ after \SI{750}{\nano\second} (see the stripped line in Figure \ref{fig:wigl}).
 
 \item \textbf{The positive muon contribution} $\text{N}_{\APmuon}(t)$
 
@@ -52,7 +52,7 @@ The exponential decay for antimuons is slower because of their higher lifetime, 
 N_{\APmuon}(t)=N_{+}(1+aP\cos{\omega_{\text{L}}t+\Phi})e^{\frac{-t}{\tau_{+}}},
 \end{equation}
 
-with $N_{+}$ a constant and $\omega_{\text{L}}t+\Phi$ the angle between the muon's spin and the detector (for a point-like detector). For a finite detector, an additional geometry factor $G$ come in to play:
+with $N_{+}$ a constant and $\omega_{\text{L}}t+\Phi$ the angle between the muon's spin and the detector (for a point-like detector). For an extended detector, an additional geometry factor $G$ come in to play:
 
 \begin{equation}
 N_{\APmuon}(t)=N_{+}(1+aPG\cos{\omega_{\text{L}}t+\Phi})e^{\frac{-t}{\tau_{+}}},
@@ -64,7 +64,7 @@ The geometry factor for an infinite detector, a reasonable enough assumption her
 N_{\APmuon}(t)\sim \frac{1}{\pi} \int_{\frac{-\pi}{2}}^{\frac{\pi}{2}} (1+aP\cos{\Theta}d\Theta)=...=1+aP\frac{2}{\pi}.
 \end{equation}
 
-The Geometry factor is thus here about $G=\frac{2}{\pi}\simeq 0.64$. The infinite detector assumption representing the worst case, we in practice find the geometry factor to be $G=0.68\pm0.04$, the expected assymetry is then:
+The geometry factor is thus here about $G=\frac{2}{\pi}\simeq 0.64$. The infinite detector assumption representing the worst case, we in practice find the geometry factor to be $G=0.68\pm0.04$, the expected assymetry is then:
 
 \begin{equation}
 A \doteq aPG = (0.38 \pm 0.04) \cdot (0.37\pm 0.01) \cdot (0.68 \pm 0.04) = 0.096 \pm 0.019,
@@ -125,5 +125,7 @@ where $O$ is the observed data value and $E$ is the expected data value for the 
 
 One should also be careful not to let the fitting engine get stuck in a local minimum of the $\chi^2$ distribution by using different starting values for the fit.
 
-Popular $\chi^2$ fitting engines in high energy physics are CERN ROOT's MINUIT algorithm \cite{MINUIT} which can easily be used through a \texttt{TF1} fit or Python's scipy's \texttt{optimize.curve\_fit} and \texttt{optimize.leastsq} which both make use of the Levenburg-Marquardt gradiant method \cite{article}.
+Popular $\chi^2$ fitting engines in high energy physics are CERN ROOT's MINUIT algorithm \cite{MINUIT} which can easily be used through a \texttt{TF1} fit or Python's scipy's \texttt{optimize.curve\_fit} and 
+
+\texttt{optimize.leastsq} which both make use of the Levenburg-Marquardt gradiant method \cite{article}.
 

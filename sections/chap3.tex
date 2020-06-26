@@ -12,7 +12,7 @@ In 1785, Charles-Augustin de Coulomb discovered that charge was released by a ch
 \label{fig:bell}
 \end{figure}
 
-It wasn't until 1912 that it was determined that the source of this ``dark current'' couldn't be the earth: Victor Hess experimented with putting an electroscope onto a baloon which he launched to an altitude of up to \SI{5300}{\meter}. He found that the rate of radiation was there some three times what it was at sea level and this, allied with his experimentation during a partial solar eclipse, allowed him to rule out the Sun as the source of this myterious radiation, enabling him to discover a natural source of high-energy particles: cosmic rays, awarding him the Nobel prize in 1936. Later studies from Freier, Lofgren, Ney, Oppenheimer, Bradt and Peters from 1948 and many others accross the years showed the existence of different radiation in the upper atmosphere, the so-called primary radiation, composed of around $90\%$ protons and around $10\%$ other nuclei which corresponds to the material ratio found in your average star, leading to the conclusion that cosmic radiation was mostly emitted by stars.
+It wasn't until 1912 that it was determined that the source of this ``dark current'' couldn't be the earth: Victor Hess experimented with putting an electroscope onto a balloon which he launched to an altitude of up to \SI{5300}{\meter}. He found that the rate of radiation was there some three times what it was at sea level and this, allied with his experimentation during a partial solar eclipse, allowed him to rule out the Sun as the source of this myterious radiation, enabling him to discover a natural source of high-energy particles: cosmic rays, awarding him the Nobel prize in 1936. Later studies from Freier, Lofgren, Ney, Oppenheimer, Bradt and Peters from 1948 and many others accross the years showed the existence of different radiation in the upper atmosphere, the so-called primary radiation, composed of around $90\%$ protons and around $10\%$ other nuclei which corresponds to the material ratio found in your average star, leading to the conclusion that cosmic radiation was mostly emitted by stars.
 
 \section{Primary cosmic rays}
 
@@ -91,7 +91,7 @@ For our purpose, pions are of particular interest. Charged pions decay overwhelm
 \Ppiplus \rightarrow \APmuon + \Pnum \text{ and } \Ppiminus \rightarrow \Pmuon + \APnum.
 \end{equation*}
 
-Nearly all muons reach the Earth's surface.
+Because of their relatively low energy loss and long lifetimes, nearly all muons reach the Earth's surface.
 
 \section{Cosmic radiation content}
 
@@ -124,10 +124,10 @@ The pion's energy will thus be distributed over many particles until a so-called
 The hard radiation component is revolves around heavy flavour leptons, mainly \Pmu flavour ones. Due to their relatively high mass, muons only lose small amounts of energy due to bremsstrahlung and mostly through ionization since they have a very high critical energy ($\sim \SI{3.6}{\TeV}$). The energy loss of massive charged particles is described by the \textit{Bethe-Bloch Formula}:
 
 \begin{equation}
--\od{E}{x}=\frac{4\pi n z^2 e^4}{m_{\Pe}}\Big(ln(\frac{2m_{\Pe}v^2}{I(1-\beta^2)}-\beta^2)  \Big).
+-\od{E}{x}=\frac{4\pi n z^2 e^4}{m_{\Pe}}\Big(\text{ln}(\frac{2m_{\Pe}v^2}{I(1-\beta^2)}-\beta^2)  \Big).
 \end{equation}
 
-where $E$ is the energy, $x$ the distance, n is the number of electrons per $\text{cm}^3$ in the traversed material, $z \cdot e$ is the electrical charge and $v$ the particle's speed, $I$ is the mean excitation potential of an atom in the material and $\beta$ is the Lorentz factor $\beta = \frac{v}{c}$. This distribution has its minimum for particles which have a $\beta\gamma \sim 3$ with $\gamma=\frac{1}{\sqrt{1-\beta^2}}$ irrespective of the particle as shown in Figure \ref{fig:BB}. Particle which have such an energy or slightly above it are called \textit{Minimum-Ionizing-Particles} (MIPs).
+where $E$ is the energy, $x$ the distance, n is the number of electrons per $\text{cm}^3$ in the traversed material, $z \cdot e$ is the electrical charge and $v$ the particle's speed, $I$ is the mean excitation potential of an atom in the material, often approximated by $I\simeq 17.7 Z^{0.85}$ and $\beta$ is the Lorentz factor $\beta = \frac{v}{c}$. This distribution has its minimum for particles which have a $\beta\gamma \sim 3$ with $\gamma=\frac{1}{\sqrt{1-\beta^2}}$ irrespective of the particle as shown in Figure \ref{fig:BB}. Particle which have such an energy or slightly above it are called \textit{Minimum-Ionizing-Particles} (MIPs).
 
 \begin{figure}[htbp]
 \centering
@@ -150,7 +150,7 @@ When considering the finite number of muons at a given energy and their lifetime
 \tau_{\Pmu\text{Lab}}=\gamma\tau_{\Pmu}.
 \end{equation}
 
-As an example, muons with an energy of $3 GeV$ will have a $\gamma=\frac{E}{m}=\frac{\SI{3}{\GeV}}{\SI{105}{\MeV}}\sim 29$ leading to a lifetime $\tau \sim \SI{62}{\micro\second}$. It would thus travels $\sim \SI{20}{\kilo\meter}$ in vacuum which corresponds to the approximate height of formation of muons in the atmosphere from pion decays. High-energy muons can make it to the earth's surface almost unhindered and easily pierce through \SI{500}{\meter} of water.
+As an example, muons with an energy of $3 GeV$ will have a $\gamma=\frac{E}{m}=\frac{\SI{3}{\GeV}}{\SI{105}{\MeV}}\sim 29$ leading to a lifetime $\tau \sim \SI{62}{\micro\second}$. It would thus travel $\sim \SI{20}{\kilo\meter}$ in vacuum which corresponds to the approximate height of formation of muons in the atmosphere from pion decays. High-energy muons can make it to the earth's surface almost unhindered and easily pierce through \SI{500}{\meter} of water.
 
 This, in addition to magnetic deflection are the main reasons why the muon momentum-spectrum ($N(E)=\frac{K}{E^{\Pgamma}}$) at ground level is shifted towards high energies as shown in Figure \ref{fig:shift}.
 
@@ -173,7 +173,7 @@ In order to perform the experiment, it is necessary to know the width of each co
 \hline
 \multicolumn{5}{ |c| }{Altitude} & \multicolumn{3}{ |c| }{Total intensity} &\multicolumn{3}{ |c| }{Hard component} &\multicolumn{3}{ |c| }{ Soft Component} \\ \hline
 \multicolumn{2}{ |c| }{Distance} & \multicolumn{3}{ |c| }{Pressure} & \makecell{Omni-\\direct-\\ional} & \makecell{Verti-\\cal} & \makecell{Latitude\\effect} & \makecell{Omni-\\direct-\\ional} & \makecell{Verti-\\cal} & \makecell{Latitude\\effect} & \makecell{Omni-\\direct-\\ional} & \makecell{Verti-\\cal} & \makecell{Latitude\\effect} \\ \hline
-metres & feet & \si{\milli\meter} Hg & atm & \si{\meter} H$_2$O & \makecell{particle \\ \si{\per sea-\cm\square}} & \makecell{particle \\ \si{\per sea-\cm\square}\\\si{-sterad}} & $\%$ & \makecell{particle \\ \si{\per sea-\cm\square}} & \makecell{particle \\ \si{\per sea-\cm\square}\\\si{-sterad}} & $\%$ &\makecell{particle \\ \si{\per sea-\cm\square}} & \makecell{particle \\ \si{\per sea-\cm\square}\\\si{-sterad}} & $\%$ \\ \hline
+metres & feet & \si{\milli\meter} Hg & atm & \si{\meter} H$_2$O & \makecell{particle \\ \si{\per sea\cdot\cm\square}} & \makecell{particle \\ \si{\per sea\cdot\cm\square}\\\si{\cdot sterad}} & $\%$ & \makecell{particle \\ \si{\per sea\cdot\cm\square}} & \makecell{particle \\ \si{\per sea\cdot\cm\square}\\\si{\cdot sterad}} & $\%$ &\makecell{particle \\ \si{\per sea\cdot\cm\square}} & \makecell{particle \\ \si{\per sea\cdot\cm\square}\\\si{\cdot sterad}} & $\%$ \\ \hline
 0 & 0 & 760 & 1.000 & 10.33 & 0.020 & 0.015 & 10 & 0.013 & 0.000 & 10 & 0.007 & 0.000 & 10 \\
 2000 & 6561 & 59.6 & 0.781 & 8.11 & 0.033 & 0.025 & 16 & 0.018 & 0.012 & 15 & 0.017 & 0.013 & 15 \\
 4500 & 14764 & 43.3 & 0.870 & 5.59 & 0.10 & 0.07 & 25 & 0.08 & 0.020 & 25 & 0.07 & 0.06 & 25 \\
