@@ -6,3 +6,7 @@ git clone https://github.com/matclim/muonlifetime.git
 pdflatex Experiment41.tex
 bibtex Experiment41
 pdflatex Experiment41.tex
+(open the Experiment41.pdf, for example "evince Experiment41.pdf")
+
+Check the latest release ! Anything not in a release has no guaranteed value. Releases can be found on the right hand side of the page.
+
