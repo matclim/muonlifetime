@@ -1,0 +1,8 @@
+Experiment script for the muon lifetime experiment.
+
+Instruction for building (Debian 10 stable, should work with any bash environment given the right permissions):
+
+git clone https://github.com/matclim/muonlifetime.git
+pdflatex Experiment41.tex
+bibtex Experiment41
+pdflatex Experiment41.tex
