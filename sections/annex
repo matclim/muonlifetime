@@ -1,0 +1,10 @@
+\chapter{Annex}
+
+\section{Electronics description}
+
+
+The different pieces of electronics used in this experiment are described here.
+
+\subsection{Amplifier}
+
+Amplifiers are an electronic device which is used to increase the amplitude of a signal through modulation of output voltage or current. The ratio between the output amplitude and the input amplitude is called the \textit{Gain} ($G$)

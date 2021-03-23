@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{Dekker1981}
+A.~J. Dekker.
+\newblock {\em Secondary Electron Emission}, pages 418--445.
+\newblock Macmillan Education UK, London, 1981.
+
+\bibitem{Gardener_1962}
+M.~Gardener, D.~G. Jones, F.~E. Taylor, and A.~W. Wolfendale.
+\newblock The momentum spectrum of cosmic ray muons near sea level in the
+  momentum range 0.4-10 {GeV}/c.
+\newblock {\em Proceedings of the Physical Society}, 80(3):697--709, sep 1962.
+
+\bibitem{Heel}
+M.~Heel.
+\newblock Messung der lebensdauer und magnetisches moment von myonen aus der
+  höhenstrahlung, 1992.
+\newblock University of Mainz.
+
+\bibitem{MINUIT}
+F.~James.
+
+\bibitem{article}
+M.~Lourakis.
+\newblock A brief description of the levenberg-marquardt algorithm implemened
+  by levmar.
+\newblock {\em A Brief Description of the Levenberg-Marquardt Algorithm
+  Implemented by Levmar}, 4, 01 2005.
+
+\bibitem{wiki}
+Qwerty123uiop.
+\newblock Wikipedia commons.
+
+\bibitem{LTSCA}
+L.~T. Science.
+\newblock What are cosmic rays?, 2019.
+
+\bibitem{Tanabashi:2018oca}
+M.~Tanabashi et~al.
+\newblock {Review of Particle Physics}.
+\newblock {\em Phys. Rev. D}, 98(3):030001, 2018.
+
+\end{thebibliography}

@@ -1,0 +1,42 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{The Standard Model of Particle Physics}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Cosmic Radiation}{}% 3
+\BOOKMARK [1][-]{section.3.1}{History of cosmic radiation}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{Primary cosmic rays}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{Secondary comic rays}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.4}{Cosmic radiation content}{chapter.3}% 7
+\BOOKMARK [2][-]{subsection.3.4.1}{Nuclear radiation}{section.3.4}% 8
+\BOOKMARK [2][-]{subsection.3.4.2}{Soft radiation}{section.3.4}% 9
+\BOOKMARK [2][-]{subsection.3.4.3}{Hard radiation}{section.3.4}% 10
+\BOOKMARK [1][-]{section.3.5}{Cosmic ray intensity}{chapter.3}% 11
+\BOOKMARK [0][-]{chapter.4}{The muon}{}% 12
+\BOOKMARK [1][-]{section.4.1}{Muon history}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{Muon production from pion decays}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{Muon polarization in cosmic rays}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.4}{Muon decays}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.4.1}{The decay of free }{section.4.4}% 17
+\BOOKMARK [1][-]{section.4.5}{Nuclear capture of negative muons}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.6}{Muon magnetic moment}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Experimental apparatus}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Experimental principle}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Target and B-field}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.3}{Particle detection apparatus}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.4}{The photomultiplier}{chapter.5}% 24
+\BOOKMARK [1][-]{section.5.5}{Electronics}{chapter.5}% 25
+\BOOKMARK [2][-]{subsection.5.5.1}{Introduction to signal electronics}{section.5.5}% 26
+\BOOKMARK [2][-]{subsection.5.5.2}{Experiment logic}{section.5.5}% 27
+\BOOKMARK [1][-]{section.5.6}{Time measurement}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.7}{Data acquisition with the PC}{chapter.5}% 29
+\BOOKMARK [0][-]{chapter.6}{Measurement and analysis}{}% 30
+\BOOKMARK [1][-]{section.6.1}{Preparatory measurements}{chapter.6}% 31
+\BOOKMARK [2][-]{subsection.6.1.1}{Setting the counter}{section.6.1}% 32
+\BOOKMARK [1][-]{section.6.2}{Electronic test with simulated pulse}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.3}{Expected time spectrum}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.4}{Analysis methods}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.4.1}{Optical fit}{section.6.4}% 36
+\BOOKMARK [2][-]{subsection.6.4.2}{2 minimization fit}{section.6.4}% 37
+\BOOKMARK [1][-]{section.6.5}{On the day of the experiment}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.6}{Electronics description}{chapter.6}% 39
+\BOOKMARK [2][-]{subsection.6.6.1}{Amplifier}{section.6.6}% 40
+\BOOKMARK [2][-]{subsection.6.6.2}{Discriminators}{section.6.6}% 41
+\BOOKMARK [2][-]{subsection.6.6.3}{Monoflop unit}{section.6.6}% 42
