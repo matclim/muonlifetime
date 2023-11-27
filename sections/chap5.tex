@@ -16,7 +16,7 @@ The experiment's principle is described in Figure \ref{fig:principle}. The Coppe
 A muon stop is experimentally defined as an electronic signal from the coincidence circuit of \textit{PMT}1 and \textit{PMT}2 but none from that of \textit{PMT}3 and \textit{PMT}4. Indeed an unstopped muon would traverse both scintillator layers and would thus register a signal in both coincidence circuits while a stopped one would traverse the top layer and not the bottom one. In logic language, a stopped muon would thus be written as:
 
 \begin{equation}
-(\text{\textit{PMT}1} \;\text{\textbf{AND}} \; \text{\textit{PMT}2}) \; \text{\textbf{AND}} \; (\overline{\text{\textit{PMT}3} \; \text{\textbf{AND}} \; \text{\textit{PMT}4}}).
+(\text{\textit{PMT}1} \;\text{\textbf{AND}} \; \text{\textit{PMT}2}) \; \text{\textbf{AND}} \; (\overline{\text{\textit{PMT}3} \; \text{\textbf{OR}} \; \text{\textit{PMT}4}}).
 \end{equation}
 
 Two PMTs and a coincidence circuit are used so as to rule out random events and reduce electronic background. Muons generate strong photon bursts that can be seen by both PMTs. A muon decay is defined in the same way as a muon stop meaning that when a particle is sent downwards, it isn't registered, leading to a loss in statistics.
@@ -134,7 +134,7 @@ The PMTs emit short, fast, subsequent (analog) electronic impulses, the electron
 The conditions for a muon stop or decay from Figure \ref{fig:principle} can be written:
 
 \begin{equation}
-\big(\text{PMT}1 \odot \text{PMT}2\big) \odot \big(\overline{\text{PMT}1} \oplus \overline{\text{PMT}2}\big).
+\big(\text{PMT}1 \odot \text{PMT}2\big) \odot \big(\overline{\text{PMT}1 \oplus \text{PMT}2}\big).
 \end{equation}
 
 The first block represents a logical \textbf{AND} while the second one represents a logical \textbf{NOR} (see Table \ref{tab:log}). The entire logical circuit, including the \textbf{AND} is realized in the electronic circuit shown in Figure \ref{fig:elek} in coincidences 1,2 and 3. The logical units used to make coincidences require sharp rectangular gate (digital) pulses which is why the analog PMT signal is connected to discriminators after amplification. 
